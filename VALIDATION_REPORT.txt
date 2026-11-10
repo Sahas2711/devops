@@ -1,0 +1,31 @@
+MITAOE DEVOPS SOURCE PACKAGE — VALIDATION REPORT
+================================================
+
+Application validation executed in the available Linux environment:
+IA-1 application | npm ci --offline | exit=0
+IA-1 application | npm run build | exit=0
+IA-1 application | npm test | exit=0 | # tests 5; # pass 5; # fail 0
+IA-2 application | npm ci --offline | exit=0
+IA-2 application | npm run build | exit=0
+IA-2 application | npm test | exit=0 | # tests 5; # pass 5; # fail 0
+IA-3 application | npm ci --offline | exit=0
+IA-3 application | npm run build | exit=0
+IA-3 application | npm test | exit=0 | # tests 5; # pass 5; # fail 0
+
+Static configuration checks:
+- Ansible playbook YAML parsed successfully.
+- Kubernetes Deployment and Service YAML parsed successfully.
+- Shared Student Management Portal server implementation matches across all three assignments.
+- Required assignment configuration/source files are present.
+- Obvious credential-pattern scan found no embedded secrets.
+
+Not executed in this environment:
+- Ansible against a real SSH-managed Ubuntu VM.
+- Docker image build or container runtime (Docker engine/CLI unavailable).
+- Kubernetes API deployment or Service routing (kubectl/cluster unavailable).
+- Jenkins controller/pipeline execution.
+- Terraform init/plan/apply (Terraform CLI unavailable).
+
+The package contains executable project code and run instructions, not fabricated infrastructure success evidence. Replace the sample inventory address/user with your own lab VM values. Terraform uses the local provider to create a local deployment-record.txt file, not a cloud VM.
+
+Student records are held in application memory and are not persistent. This project is for academic demonstration and is not a production student information system.

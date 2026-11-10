@@ -1,0 +1,90 @@
+pipeline {
+  agent any
+  options {
+    timestamps()
+    disableConcurrentBuilds()
+    buildDiscarder(logRotator(numToKeepStr: '20'))
+  }
+  environment {
+    APP_PORT = '3100'
+    TF_IN_AUTOMATION = 'true'
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+        sh 'git rev-parse --short HEAD'
+      }
+    }
+    stage('Build') {
+      steps {
+        sh 'node --version'
+        sh 'npm ci'
+        sh 'npm run build'
+      }
+    }
+    stage('Test') {
+      steps {
+        sh 'npm test'
+      }
+    }
+    stage('Terraform Init') {
+      steps {
+        dir('infra/terraform') {
+          sh 'terraform init -input=false'
+        }
+      }
+    }
+    stage('Terraform Format and Validate') {
+      steps {
+        dir('infra/terraform') {
+          sh 'terraform fmt -check -recursive'
+          sh 'terraform validate'
+        }
+      }
+    }
+    stage('Terraform Plan') {
+      steps {
+        dir('infra/terraform') {
+          sh 'terraform plan -input=false -out=tfplan'
+        }
+      }
+    }
+    stage('Terraform Apply') {
+      steps {
+        dir('infra/terraform') {
+          sh 'terraform apply -input=false -auto-approve tfplan'
+          sh 'test -s deployment-record.txt'
+        }
+      }
+    }
+    stage('Deploy') {
+      steps {
+        sh '''
+          set -eu
+          (PORT="$APP_PORT" nohup node server.js > portal.log 2>&1 & echo $! > portal.pid)
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent "http://127.0.0.1:$APP_PORT/health" >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat portal.log
+          exit 1
+        '''
+      }
+    }
+    stage('Verify') {
+      steps {
+        sh 'curl --fail --show-error "http://127.0.0.1:$APP_PORT/health"'
+        archiveArtifacts artifacts: 'infra/terraform/deployment-record.txt', fingerprint: true
+      }
+    }
+  }
+  post {
+    always {
+      sh 'if [ -f portal.pid ]; then kill "$(cat portal.pid)" 2>/dev/null || true; rm -f portal.pid; fi'
+      sh 'rm -f portal.log'
+    }
+  }
+}

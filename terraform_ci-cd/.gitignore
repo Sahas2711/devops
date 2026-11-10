@@ -1,0 +1,11 @@
+node_modules/
+dist/
+portal.log
+portal.pid
+*.log
+.env
+infra/terraform/.terraform/
+infra/terraform/tfplan
+infra/terraform/terraform.tfstate
+infra/terraform/terraform.tfstate.backup
+infra/terraform/deployment-record.txt

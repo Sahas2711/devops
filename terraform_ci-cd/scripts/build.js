@@ -1,0 +1,1 @@
+const fs=require('node:fs'),path=require('node:path');const src=path.join(__dirname,'..','public'),dst=path.join(__dirname,'..','dist');fs.rmSync(dst,{recursive:true,force:true});fs.mkdirSync(dst,{recursive:true});for(const f of ['index.html','styles.css','app.js'])fs.copyFileSync(path.join(src,f),path.join(dst,f));console.log('Build complete: 3 static assets copied to dist/');

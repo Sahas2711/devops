@@ -1,0 +1,14 @@
+{
+  "name": "student-management-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MITAOE DevOps assignment demonstration app",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

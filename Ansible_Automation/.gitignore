@@ -1,0 +1,5 @@
+app/node_modules/
+app/dist/
+*.retry
+*.log
+.env

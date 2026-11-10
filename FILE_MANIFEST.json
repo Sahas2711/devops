@@ -1,0 +1,287 @@
+[
+  {
+    "path": "README.md",
+    "size_bytes": 1313,
+    "sha256": "8a6286c0ca76c2de3d30844782c49312af25b7dad8a5a8d9913e06a59ea9abf8"
+  },
+  {
+    "path": "VALIDATION_REPORT.txt",
+    "size_bytes": 1776,
+    "sha256": "937c83e8fb706a4baf45082242bca4f32cb51e25b6f21d851d524f5100bf0adf"
+  },
+  {
+    "path": "ia_1_code/.gitignore",
+    "size_bytes": 47,
+    "sha256": "15bbeb0fee5ca05bedd131678dfee2994e99c537342728cfc1c024b8e2885982"
+  },
+  {
+    "path": "ia_1_code/README.md",
+    "size_bytes": 1338,
+    "sha256": "0383dcd6ace10984c80ed3463299ab34fdcb643131aa7d944985fe363b174901"
+  },
+  {
+    "path": "ia_1_code/ansible.cfg",
+    "size_bytes": 253,
+    "sha256": "b1e8b54919e4956e00f8d8ee97f03c1003d4763ebc0f6e119cbdd56deea17cfd"
+  },
+  {
+    "path": "ia_1_code/app/.dockerignore",
+    "size_bytes": 55,
+    "sha256": "51623f27712f96702e9b2e7d409e19b87f2135db6574be8256eee754002fc3b1"
+  },
+  {
+    "path": "ia_1_code/app/.env.example",
+    "size_bytes": 23,
+    "sha256": "a5cd5699ce3d3058c10615267ac99094c17cc2bd583d8b3ded529ac8aa8cd36c"
+  },
+  {
+    "path": "ia_1_code/app/.gitignore",
+    "size_bytes": 31,
+    "sha256": "a53b1a5c814942c22e62bf40845d2567f6bac5d39d008d2b713343ab0b7f0bdb"
+  },
+  {
+    "path": "ia_1_code/app/package-lock.json",
+    "size_bytes": 264,
+    "sha256": "450fa67595ae106c552fe23aa4217c9dab55ff158b868c77b3f10a3dfa6292c5"
+  },
+  {
+    "path": "ia_1_code/app/package.json",
+    "size_bytes": 300,
+    "sha256": "4f4aab20cffb6833b90054f42f9081e5af325df5052d62db2f1c0d453b81e66a"
+  },
+  {
+    "path": "ia_1_code/app/public/app.js",
+    "size_bytes": 1389,
+    "sha256": "7ce725894752ae8786f189fb87899e46b3a56f809a3672d8d2a8b0f2f43a556f"
+  },
+  {
+    "path": "ia_1_code/app/public/index.html",
+    "size_bytes": 1761,
+    "sha256": "ab344b7576692c955d719aff9153d03c8e6f771165bf90c8282beb09ec0786ba"
+  },
+  {
+    "path": "ia_1_code/app/public/styles.css",
+    "size_bytes": 1957,
+    "sha256": "bf6fd569e0eb011c8b525da10766327075d388df1f2f51730e088839d5ab1898"
+  },
+  {
+    "path": "ia_1_code/app/scripts/build.js",
+    "size_bytes": 381,
+    "sha256": "2553e61f5d5fd4bddc5c3b924eba87b7ccb398c6ce47821f03b47b3dd13a4f1a"
+  },
+  {
+    "path": "ia_1_code/app/server.js",
+    "size_bytes": 3011,
+    "sha256": "db20eb59e8d057d4f8463ae07f499d78539031cf33ee43de1b1c3113612fe292"
+  },
+  {
+    "path": "ia_1_code/app/test/portal.test.js",
+    "size_bytes": 2135,
+    "sha256": "8fe19a4349c3024c80291db70f1bf71374d875e2ad661d16bb7e483f3f1367ea"
+  },
+  {
+    "path": "ia_1_code/files/student-portal/package-lock.json",
+    "size_bytes": 264,
+    "sha256": "450fa67595ae106c552fe23aa4217c9dab55ff158b868c77b3f10a3dfa6292c5"
+  },
+  {
+    "path": "ia_1_code/files/student-portal/package.json",
+    "size_bytes": 300,
+    "sha256": "4f4aab20cffb6833b90054f42f9081e5af325df5052d62db2f1c0d453b81e66a"
+  },
+  {
+    "path": "ia_1_code/files/student-portal/public/app.js",
+    "size_bytes": 1389,
+    "sha256": "7ce725894752ae8786f189fb87899e46b3a56f809a3672d8d2a8b0f2f43a556f"
+  },
+  {
+    "path": "ia_1_code/files/student-portal/public/index.html",
+    "size_bytes": 1761,
+    "sha256": "ab344b7576692c955d719aff9153d03c8e6f771165bf90c8282beb09ec0786ba"
+  },
+  {
+    "path": "ia_1_code/files/student-portal/public/styles.css",
+    "size_bytes": 1957,
+    "sha256": "bf6fd569e0eb011c8b525da10766327075d388df1f2f51730e088839d5ab1898"
+  },
+  {
+    "path": "ia_1_code/files/student-portal/server.js",
+    "size_bytes": 3011,
+    "sha256": "db20eb59e8d057d4f8463ae07f499d78539031cf33ee43de1b1c3113612fe292"
+  },
+  {
+    "path": "ia_1_code/inventory.ini",
+    "size_bytes": 171,
+    "sha256": "36c68abbbb7bfdaba5eb767578658e89eaef63a0af91c38e2a62dc71d14d9f99"
+  },
+  {
+    "path": "ia_1_code/playbook.yml",
+    "size_bytes": 4113,
+    "sha256": "7c9edf1982367c7b4bfb7d68cf04bf39dbb60a37051b5a18875074b1b952cddb"
+  },
+  {
+    "path": "ia_2_code/.dockerignore",
+    "size_bytes": 52,
+    "sha256": "0143171dfde821cf0e2e2c00dfa49efbc02a73607d564afc684efc78b14246c4"
+  },
+  {
+    "path": "ia_2_code/.gitignore",
+    "size_bytes": 39,
+    "sha256": "024daa4a29ed967dfb6bce5da45b9e4e2a503ff05b269e02346f85292951f6d3"
+  },
+  {
+    "path": "ia_2_code/Dockerfile",
+    "size_bytes": 442,
+    "sha256": "9523d59536b2de9623542dabc9c4c558f72a2eace20497014258ba510af9b6bc"
+  },
+  {
+    "path": "ia_2_code/README.md",
+    "size_bytes": 1512,
+    "sha256": "642ad04438bb6712a7ed15214eaf38574ed2c9003d1ca9b186d684c1df7ba5bb"
+  },
+  {
+    "path": "ia_2_code/app/.dockerignore",
+    "size_bytes": 55,
+    "sha256": "51623f27712f96702e9b2e7d409e19b87f2135db6574be8256eee754002fc3b1"
+  },
+  {
+    "path": "ia_2_code/app/.env.example",
+    "size_bytes": 23,
+    "sha256": "a5cd5699ce3d3058c10615267ac99094c17cc2bd583d8b3ded529ac8aa8cd36c"
+  },
+  {
+    "path": "ia_2_code/app/.gitignore",
+    "size_bytes": 31,
+    "sha256": "a53b1a5c814942c22e62bf40845d2567f6bac5d39d008d2b713343ab0b7f0bdb"
+  },
+  {
+    "path": "ia_2_code/app/package-lock.json",
+    "size_bytes": 264,
+    "sha256": "450fa67595ae106c552fe23aa4217c9dab55ff158b868c77b3f10a3dfa6292c5"
+  },
+  {
+    "path": "ia_2_code/app/package.json",
+    "size_bytes": 300,
+    "sha256": "4f4aab20cffb6833b90054f42f9081e5af325df5052d62db2f1c0d453b81e66a"
+  },
+  {
+    "path": "ia_2_code/app/public/app.js",
+    "size_bytes": 1389,
+    "sha256": "7ce725894752ae8786f189fb87899e46b3a56f809a3672d8d2a8b0f2f43a556f"
+  },
+  {
+    "path": "ia_2_code/app/public/index.html",
+    "size_bytes": 1761,
+    "sha256": "ab344b7576692c955d719aff9153d03c8e6f771165bf90c8282beb09ec0786ba"
+  },
+  {
+    "path": "ia_2_code/app/public/styles.css",
+    "size_bytes": 1957,
+    "sha256": "bf6fd569e0eb011c8b525da10766327075d388df1f2f51730e088839d5ab1898"
+  },
+  {
+    "path": "ia_2_code/app/scripts/build.js",
+    "size_bytes": 381,
+    "sha256": "2553e61f5d5fd4bddc5c3b924eba87b7ccb398c6ce47821f03b47b3dd13a4f1a"
+  },
+  {
+    "path": "ia_2_code/app/server.js",
+    "size_bytes": 3011,
+    "sha256": "db20eb59e8d057d4f8463ae07f499d78539031cf33ee43de1b1c3113612fe292"
+  },
+  {
+    "path": "ia_2_code/app/test/portal.test.js",
+    "size_bytes": 2135,
+    "sha256": "8fe19a4349c3024c80291db70f1bf71374d875e2ad661d16bb7e483f3f1367ea"
+  },
+  {
+    "path": "ia_2_code/k8s/deployment.yaml",
+    "size_bytes": 1468,
+    "sha256": "4eefa6d19818f90af3bfd014b80fe4a6e34cd7ac474d7411f48c8271a0876704"
+  },
+  {
+    "path": "ia_2_code/k8s/service.yaml",
+    "size_bytes": 299,
+    "sha256": "9dbbdb1af422737d20605828ac8a70c44f48fb2967df7995a09d516df66dbde4"
+  },
+  {
+    "path": "ia_3_code/.gitattributes",
+    "size_bytes": 58,
+    "sha256": "0d467fa067e85d0f14a2b0af8c7ebeb3d82e16ab4476c1f8a7fce5211de4fdcc"
+  },
+  {
+    "path": "ia_3_code/.gitignore",
+    "size_bytes": 217,
+    "sha256": "ca6983113d25a05a6bff705d100c59e6a0e613b644245dfd5f40655ade607ab8"
+  },
+  {
+    "path": "ia_3_code/Jenkinsfile",
+    "size_bytes": 2055,
+    "sha256": "ce3f7feade60c9b55e3f4e13c00549c5c41ff8bfa0af2c8b7edd55054f0cbc8c"
+  },
+  {
+    "path": "ia_3_code/README.md",
+    "size_bytes": 1717,
+    "sha256": "661b734c9e9385ecbc8b69a389a1b073e7523837bfe4a29ac76ded262a1d0e54"
+  },
+  {
+    "path": "ia_3_code/infra/terraform/main.tf",
+    "size_bytes": 318,
+    "sha256": "099a481795a57a9b46a36d888f155200010fa076b1c49ddf366744dacee83869"
+  },
+  {
+    "path": "ia_3_code/infra/terraform/outputs.tf",
+    "size_bytes": 162,
+    "sha256": "20624e72588140dd14d9c7d42e2cf582611c72e4bdf5608b996afb3919b8687d"
+  },
+  {
+    "path": "ia_3_code/infra/terraform/providers.tf",
+    "size_bytes": 172,
+    "sha256": "128d948f2af06e51aa51515423de341aabd22e242f88885ebae2838e1c116fce"
+  },
+  {
+    "path": "ia_3_code/infra/terraform/variables.tf",
+    "size_bytes": 338,
+    "sha256": "4630dd99ff872f1b7da29463be924ae10ac41f1c735ad27e78c951c4897e18a6"
+  },
+  {
+    "path": "ia_3_code/package-lock.json",
+    "size_bytes": 264,
+    "sha256": "450fa67595ae106c552fe23aa4217c9dab55ff158b868c77b3f10a3dfa6292c5"
+  },
+  {
+    "path": "ia_3_code/package.json",
+    "size_bytes": 300,
+    "sha256": "4f4aab20cffb6833b90054f42f9081e5af325df5052d62db2f1c0d453b81e66a"
+  },
+  {
+    "path": "ia_3_code/public/app.js",
+    "size_bytes": 1389,
+    "sha256": "7ce725894752ae8786f189fb87899e46b3a56f809a3672d8d2a8b0f2f43a556f"
+  },
+  {
+    "path": "ia_3_code/public/index.html",
+    "size_bytes": 1761,
+    "sha256": "ab344b7576692c955d719aff9153d03c8e6f771165bf90c8282beb09ec0786ba"
+  },
+  {
+    "path": "ia_3_code/public/styles.css",
+    "size_bytes": 1957,
+    "sha256": "bf6fd569e0eb011c8b525da10766327075d388df1f2f51730e088839d5ab1898"
+  },
+  {
+    "path": "ia_3_code/scripts/build.js",
+    "size_bytes": 381,
+    "sha256": "2553e61f5d5fd4bddc5c3b924eba87b7ccb398c6ce47821f03b47b3dd13a4f1a"
+  },
+  {
+    "path": "ia_3_code/server.js",
+    "size_bytes": 3011,
+    "sha256": "db20eb59e8d057d4f8463ae07f499d78539031cf33ee43de1b1c3113612fe292"
+  },
+  {
+    "path": "ia_3_code/test/portal.test.js",
+    "size_bytes": 2135,
+    "sha256": "8fe19a4349c3024c80291db70f1bf71374d875e2ad661d16bb7e483f3f1367ea"
+  }
+]
